@@ -1,1 +1,33 @@
-.Calculator {}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  
+
+  
+  .container {
+    margin-top: 250px;
+    width: 340px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0000008b;
+  
+  }
+  
+  .row{
+    width: 50px;
+    justify-content: center;
+  
+  }
+  
+  input{
+    text-align: center;
+    width:55px;
+  }
+  
+  .mt-5 {
+    margin-top: 80px;
+  }
