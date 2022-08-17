@@ -1,15 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import './Home.css';
+import logo from './logo192.png'
 
-const Home = () => (
-  <div className="Home" data-testid="Home">
-    Home Component
-  </div>
-);
-
-Home.propTypes = {};
-
-Home.defaultProps = {};
+function Home(){
+    return (
+        <>
+            <p className="text-center p-5">
+                <img src={logo} />
+            </p>
+        </>
+    )
+};
 
 export default Home;
