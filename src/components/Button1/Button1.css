@@ -1,0 +1,17 @@
+
+.btn1 {
+    border: none;
+    background-color: rgb(181, 194, 62);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    width: 80px;
+    padding-right: 10px;
+  }
+
+  .btn1:hover{
+    background: rgba(43, 248, 77, 0.671);
+  }
